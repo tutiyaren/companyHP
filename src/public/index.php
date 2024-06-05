@@ -63,6 +63,50 @@
     <!-- アクセスと営業時間はまとめて、横並びでいいのでは、レスポンシブで縦並びに -->
     <div class="location">
 
+      <!-- アクセス -->
+      <div class="access">
+        <h3 class="access-title">アクセス</h3>
+        <div class="access-detail">
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">住所</dt>
+            <dd class="access-detail__dl-dd">東京都xx区xxxx町x丁目x番xx号</dd>
+          </dl>
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">車でお越しの方</dt>
+            <dd class="access-detail__dl-dd">国道○号を○○方面に見て、コンビニを左折したところです</dd>
+          </dl>
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">電車でお越しの方</dt>
+            <dd class="access-detail__dl-dd">最寄りは○○駅の○○線</dd>
+          </dl>
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">徒歩でお越しの方</dt>
+            <dd class="access-detail__dl-dd">最寄り駅より徒歩5分</dd>
+          </dl>
+        </div>
+      </div>
+
+      <!-- 営業時間 -->
+      <div class="businessHours">
+        <h3 class="businessHours-title">営業時間</h3>
+        <div class="businessHours-detail">
+
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">昼の部</dt>
+            <dd class="access-detail__dl-dd">11:00 ~ 14:30（ラストオーダー14:00）</dd>
+          </dl>
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">夜の部</dt>
+            <dd class="access-detail__dl-dd">17:00 ~ 22:00ラストオーダー21:20）</dd>
+          </dl>
+          <dl class="access-detail__dl">
+            <dt class="access-detail__dl-dt">定休日</dt>
+            <dd class="access-detail__dl-dd">月・火（気まぐれで他の曜日も休む場合あり）</dd>
+          </dl>
+
+        </div>
+      </div>
+
     </div>
 
     <!-- 運営会社 -->
@@ -128,7 +172,9 @@
   </main>
   <!-- フッター -->
   <footer class="footer">
-
+    <div class="footer-copyright">
+    <small class="footer-copyright__name">&copy;2024 Ren Tsuchiya</small>
+    </div>
   </footer>
 
 </body>

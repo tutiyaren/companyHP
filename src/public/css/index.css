@@ -67,6 +67,48 @@ body {
 }
 
 
+/* アクセス・営業時間 */
+.location {
+  display: flex;
+  margin-top: 7%;
+}
+.access,
+.businessHours {
+  width: 50%;
+  padding: 4% 0 5%;
+  padding-left: 5%;
+}
+.access {
+  background-color: #31dbb9;
+}
+.businessHours {
+  background-color: #11dab1;
+}
+.access-title,
+.businessHours-title {
+  width: 80%;
+  text-align: center;
+  font-size: 2.2vw;
+  letter-spacing: 5px;
+  margin-bottom: 3%;
+}
+.access-detail,
+.businessHours-detail {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.4vw;
+}
+.access-detail__dl-dt,
+.businessHours-detail__dl-dt {
+  margin-bottom: 2%;
+  color: rgb(116, 116, 116);
+  
+}
+.access-detail__dl-dd,
+.businessHours-detail__dl-dd {
+  font-weight: bold;
+  margin-bottom: 4%;
+}
 
 /* 運営会社 */
 .company {
@@ -104,8 +146,23 @@ body {
   margin-bottom: 2%;
 }
 
+/* フッター */
+.footer {
+  width: 100%;
+}
+.footer-copyright {
+  width: 100%;
+  background-color: #07c5b5;
+  padding: 1% 0;
+  text-align: center;
+}
+.footer-copyright__name {
+  font-size: 0.7vw;
+}
+
 
 @media screen and (max-width:786px) {
+  /* ヘッダー */
   .header-menu__iconTopLink {
     height: 3.5vh;
   }
@@ -134,12 +191,14 @@ body {
     margin-left: 15%;
   }
 
+  /* 運営会社 */
   .company-table {
     width: 60%;
   }
 }
 
 @media screen and (max-width:521px) {
+  /* ヘッダー */
   .header-menu__iconTopLink {
     height: 2vh;
   }
@@ -157,6 +216,27 @@ body {
     margin-bottom: 4%;
   }
 
+  /* アクセス・営業時間 */
+  .location {
+    flex-direction: column-reverse;
+  }
+  .access,
+  .businessHours {
+    width: 100%;
+    text-align: center;
+    padding-left: 0
+  }
+  .access-title,
+  .businessHours-title {
+    width: 100%;
+    text-align: center;
+  }
+  .access-detail__dl-dd,
+  .businessHours-detail__dl-dd {
+    margin: 0 auto;
+  }
+
+  /* 運営会社 */
   .company-table {
     width: 70%;
   }
