@@ -1,0 +1,164 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1500px;
+}
+/* ヘッダー */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+/* ヘッダーロゴ */
+.header-menu__iconTopLink {
+  display: inline-block;
+  background-color: #2896f6;
+  width: 7vw;
+  height: 5vh;
+  margin-left: 4%;
+}
+/* ヘッダーナビ */
+.header-menu__nav {
+  margin-right: 4%;
+  width: 100%;
+}
+.header-menu__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.header-menu__li {
+  list-style: none;
+  font-size: 1.3vw;
+}
+.header-menu__li:not(:last-child) {
+  margin-right: 3%;
+
+}
+/* ヘッダーアイキャッチ */
+.header-catching {
+  width: 100%;
+}
+.header-catching__inner {
+  background-color: #25ddb8;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-catching__title {
+  padding-bottom: 15%;
+  font-size: 3vw;
+}
+.header-catching__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 60px;
+  letter-spacing: 6px;
+  font-size: 1.6vw;
+}
+
+
+
+/* 運営会社 */
+.company {
+  margin: 6% auto;
+}
+.company-title {
+  text-align: center;
+  font-size: 2.2vw;
+  letter-spacing: 5px;
+}
+/* 運営会社テーブル */
+.company-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 50%;
+}
+.company-table__tr {
+  font-size: 1.3vw;
+}
+.company-table__tr-th {
+  background-color: #e7e7e7;
+  padding: 3% 5%;
+  width: 20%;
+}
+.company-table__tr-td {
+  padding-left: 5%;
+  padding: 3% 5%;
+}
+.postal-address {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.comany-postal {
+  margin-bottom: 2%;
+}
+
+
+@media screen and (max-width:786px) {
+  .header-menu__iconTopLink {
+    height: 3.5vh;
+  }
+  .header-catching__inner {
+    align-items: baseline;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: flex-start;
+  }
+  .header-catching__title {
+    text-align: center;
+    margin: 7% auto 0;
+  }
+  .header-catching__text {
+    line-height: 60px;
+    letter-spacing: 6px;
+    font-size: 1.6vw;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .header-catching__text-thatFirst {
+    margin-right: 25%;
+  }
+  .header-catching__text-thatEnd {
+    margin-left: 15%;
+  }
+
+  .company-table {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:521px) {
+  .header-menu__iconTopLink {
+    height: 2vh;
+  }
+  .header-catching__inner {
+    height: 20vh;
+  }
+  .header-catching__title {
+    margin: 9% auto;
+    padding-bottom: 0;
+  }
+  .header-catching__text {
+    font-size: 1.6vw;
+    line-height: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 4%;
+  }
+
+  .company-table {
+    width: 70%;
+  }
+}
+
