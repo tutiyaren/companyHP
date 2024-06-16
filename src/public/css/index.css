@@ -37,10 +37,10 @@ body {
 .header-menu__li {
   list-style: none;
   font-size: 1.3vw;
+  cursor: pointer;
 }
 .header-menu__li:not(:last-child) {
   margin-right: 3%;
-
 }
 /* ヘッダーアイキャッチ */
 .header-catching {
@@ -156,6 +156,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .menu-detail__wrapper-title {
+  cursor: pointer;
   text-align: center;
   font-size: 2vw;
   font-weight: bold;
