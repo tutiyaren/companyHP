@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   padding: 0;
   max-width: 1500px;
+  user-select: none;
 }
 /* ヘッダー */
 .header {
@@ -71,6 +72,7 @@ body {
   line-height: 60px;
   letter-spacing: 6px;
   font-size: 1.6vw;
+  user-select: none;
 }
 
 /* こだわり */
@@ -257,6 +259,40 @@ body {
 }
 .comany-postal {
   margin-bottom: 2%;
+}
+
+/* Topボタン */
+#page-top {
+  position: fixed;
+  bottom: 6%;
+  right: 5%;
+  display: none;
+  width: 5vw;
+  height: 5vw;
+  max-width: 60px;
+  max-height: 60px;
+  background: #049b8e;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  text-decoration: none;
+}
+#page-to:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  content: "";
+}
+.topButton {
+  display: inline-block;
+  font-weight: bold;
+  color: #6bf2e7;
+  font-size: 1.4vw;
 }
 
 /* フッター */

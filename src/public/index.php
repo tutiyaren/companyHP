@@ -240,6 +240,9 @@
 
     </div>
 
+    <!-- topボタン -->
+    <a id="page-top" href="#"><span class="topButton">↑</span></a>
+
   </main>
   <!-- フッター -->
   <footer class="footer">
@@ -249,6 +252,7 @@
   </footer>
 
   <script src="./js/target.js"></script>
+  <script src="./js/scroll.js"></script>
 
 </body>
 </html>
