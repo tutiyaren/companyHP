@@ -21,11 +21,11 @@
       <!-- 右のナビゲーション -->
       <nav class="header-menu__nav">
         <ul class="header-menu__ul">
-          <li class="header-menu__li">こだわり</li>
-          <li class="header-menu__li">メニュー</li>
-          <li class="header-menu__li">アクセス</li>
-          <li class="header-menu__li">営業時間</li>
-          <li class="header-menu__li">運営会社</li>
+          <li class="header-menu__li" id="detailed">こだわり</li>
+          <li class="header-menu__li" id="menu">メニュー</li>
+          <li class="header-menu__li" id="access">アクセス</li>
+          <li class="header-menu__li" id="businessHours">営業時間</li>
+          <li class="header-menu__li" id="company">運営会社</li>
         </ul>
       </nav>
 
@@ -247,6 +247,8 @@
     <small class="footer-copyright__name">&copy;2024 Ren Tsuchiya</small>
     </div>
   </footer>
+
+  <script src="./js/target.js"></script>
 
 </body>
 </html>
